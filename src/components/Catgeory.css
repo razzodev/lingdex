@@ -1,0 +1,24 @@
+.category-wrapper {
+    width: 70vw;
+    display: flex;
+    /* justify-content: flex-start; */
+    margin-bottom: 1rem;
+    height:1.6rem;
+    padding: 0.8rem 0.9rem;
+    background-color: var(--color-bg-p1);
+    color:var(--color-txt-dark);
+    border-radius: var(--border-radius-1);
+}
+
+.category-content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.category-label {
+    margin-left: 1rem;
+}
+
+.action-icon {
+    margin-left: auto;
+}

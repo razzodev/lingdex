@@ -1,0 +1,30 @@
+.word-banner-wrapper{
+    width: 80vw;
+    
+    background-color: var(--color-bg-p1);
+    color:var(--color-txt-dark);
+    margin: 0.8rem;
+    padding: 0.8rem;
+    border-radius: var(--border-radius-1);
+}
+
+.word-banner-wrapper h3,p {
+    margin:0.5rem 0rem
+}
+
+.translation {
+    text-overflow:ellipsis;
+font-size: 22px;
+}
+
+.phonetic {
+
+}
+
+.original-language {
+
+}
+
+.desc {
+font-style: italic;
+}
