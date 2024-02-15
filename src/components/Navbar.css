@@ -1,0 +1,11 @@
+nav ul { 
+    display: flex;
+    list-style-type: none;
+    width:100vw;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+ }
+
+ .navbar-link {
+    margin-right: 1rem;
+ }
