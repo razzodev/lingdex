@@ -1,3 +1,6 @@
+nav {
+    background-color: rgb(59, 59, 59);
+}
 nav ul { 
     display: flex;
     list-style-type: none;
@@ -8,4 +11,12 @@ nav ul {
 
  .navbar-link {
     margin-right: 1rem;
+ }
+
+ .navbar-link a {
+    color: gray;
+ }
+
+ .navbar-link a.active {
+    color: white;
  }
