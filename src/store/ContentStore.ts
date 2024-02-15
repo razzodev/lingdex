@@ -4,10 +4,13 @@ export class ContentStore {
     appStore;
     language='en'
     wordList=[];
+    currPage = 'no page'
     constructor(appStore){
         makeObservable(this,{
             wordList:observable,
+            currPage:observable,
             addWord:action,
+            setCurrPage:action,
             removeWord:action,
             setLanguage:action,
             getWordList:computed
@@ -23,6 +26,9 @@ export class ContentStore {
     }
     removeWord(payload){
         this.wordList.filter((item)=> item !== payload);
+    }
+    setCurrPage(page){
+        this.currPage = page;
     }
     get getWordList(){
         return this.wordList
